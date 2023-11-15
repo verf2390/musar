@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 1860px; /* O el ancho deseado para tu contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border: 1px solid #ccc; /* Define un borde alrededor del contenedor */
+    padding: 20px; /* Añade espacio interno dentro del contenedor */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+header, nav, section, footer {
+   
+}
+
+.logo{
+    border: 1px solid black;
+    text-align: left;
+    height: auto;
+}
+
+.menu-navegacion a{
+    list-style: none;
+    text-align:center;
+    background-color: aliceblue;
+    
+    
+    
+}
+.barra-de-navegacion li{
+    background-color: aliceblue;
+    width: 340px;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Transición suave para el cambio de color */
+    font: bold 14px verdana;
+    display: inline-block;
+    padding:auto;
+    
+}
+
+.slider-wrap{
+    width: 1860px;
+
+}
